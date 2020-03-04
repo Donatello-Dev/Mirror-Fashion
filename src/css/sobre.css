@@ -1,0 +1,84 @@
+.titulo-principal{ /* CABEÇALHO DA SEÇÃO SOBRE */
+    font-size: 27px;
+    color: #333;
+    padding: 10px;
+    margin-top: 15px;
+    background-image: url(../img/sobre-background.jpg);
+}
+
+.sobre p{ /* TEXTOS DA SEÇÃO SOBRE */
+    line-height: 25px;
+    margin: 15px 45px;
+    text-indent: 15px;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+p strong{ /* TEXTO EM DESTRAQUE NA SEÇÃO SOBRE */
+    font-weight: bold;
+}
+
+.sobre h2{ /* SUBTITULOS DA SEÇÃO SOBRE */
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.picture{ /* IMAGENS DA SEÇÃO SOBRE */
+    padding: 15px;
+    margin: 30px;
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.img-1{ /* PRIMEIRA IMAGEM DA SEÇÃO SOBRE */
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.img-2{ /* SEGUNDA IMAGEM DA SEÇÃO SOBRE */
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.sobre ul{ /* POSICIONAMENTO DA LISTA NA SEÇÃO SOBRE */
+    margin: 15px 0px 50px 65px;
+}
+
+.sobre li{ /* ITENS DA LISTA NA SEÇÃO SOBRE */
+    padding-bottom: 5px;
+    list-style: disc;
+}
+
+@media (max-width: 939px) {
+
+body{
+    width: 96%;
+}
+
+.picture{
+    position: relative;
+    width: 95%;   
+    padding: 5px;
+    margin: auto;
+}
+
+.picture img{
+    max-width: 100%;
+}
+
+.sobre ul{
+    margin: 25px;
+}
+
+.sobre li{
+    padding-bottom: 10px;
+}
+
+}
